@@ -1,6 +1,0 @@
-function [lf_enhanced, dof] = lf_process(intput, lf, t)
-
-    lf_enhanced(:,:,1) = d.*input(:,:,1) + (-d+1).*I_LF(:,:,1);
-    lf_enhanced(:,:,2) = d.*input(:,:,2) + (-d+1).*I_LF(:,:,2);
-    lf_enhanced(:,:,3) = d.*input(:,:,3) + (-d+1).*I_LF(:,:,3);
-end
