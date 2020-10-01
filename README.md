@@ -1,9 +1,9 @@
 # Single-Image rain and snow removal matlab code 
 
-run test.m to get the result in output dir
+run test.m to get results in output dir
 
-lf_process is the processing of low frequency
+lf_process symbolizes processing of low frequency
 
-hf_process is the processing of high frequency
+hf_process symbolizes processing of high frequency
 
 test : using muti-guided filter and output the process images
